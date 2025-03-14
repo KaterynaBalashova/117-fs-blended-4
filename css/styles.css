@@ -113,6 +113,13 @@ button {
 
 .hero-section {
   display: flex;
+  justify-content: space-between;
+}
+
+.hero-info-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 112px 0;
 }
 
 .hero-title {
@@ -121,14 +128,20 @@ button {
   line-height: 1.5;
   color: #22343d;
   max-width: 392px;
+  margin-bottom: 18px;
 }
 .hero-text {
   /* font-weight: 400; */
   font-size: 18px;
   line-height: 1.55;
   color: #22343d;
+  width: 432px;
+  margin-bottom: 42px;
 }
 .hero-btn-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 .hero-btn-item {
 }
@@ -150,10 +163,12 @@ button {
   color: #02897a;
   background-color: transparent;
   border: none;
+  text-align: center;
 }
 
 .hero-icon {
   fill: #02897a;
+  margin-right: 9px;
 }
 
 .hero-img {
